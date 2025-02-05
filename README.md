@@ -1,5 +1,3 @@
-NLP Article Analyzer
-
 Overview
 
 This project analyzes the sentiment of news articles using an NLP API. Built with Node.js, Express, Webpack, and Sass, it demonstrates essential web development skills, including API integration, service workers, and responsive design.
@@ -24,28 +22,9 @@ Install dependencies:
 
 npm install
 
-Start the development server:
+Run:
 
-npm run build-dev
+npm run build-dev | for the front-end
+npm start | for the back-end server
 
-Run in production mode:
-
-npm run build-prod
-npm start
-
-API Usage
-
-The server forwards text to Udacity's NLP API.
-
-Example input:
-
-{ "text": "This project is amazing!" }
-
-Example response:
-
-{ "sentiment": "POSITIVE", "sentiment_scores": { "Positive": 0.95, "Negative": 0.02 } }
-
-
-Developer
-
-Built by Omar Sanjaq
+Developer "Built by Omar Sanjaq
